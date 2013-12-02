@@ -1,0 +1,8 @@
+Identity Finder
+
+contributors: andrew4, mathanas
+url: N/A
+
+Identity finder will search your local folders for text matching certain identifying information such as Social Security Numbers, phone numbers, Drivers License, etc.
+
+The user will provide information via commandline or config file. The reg ex's will be stored in a config file as well so they can be altered for changes to format in identifying information.

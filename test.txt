@@ -10,7 +10,7 @@ andrew123@vt.edu, biggie@smalls.com
 
 Invalid ID info:
 555-5-5555, 1-44-6622, 432-44--1221
-and^rew123@vt.edu, 8@google.com
+and^rew123^@vt.edu, 8@google.com
 3212-432-5553-1123
 732-8443-2231, 1-443-323-234 3
 11/233/1944, 4/100/1776

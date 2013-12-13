@@ -1,7 +1,6 @@
 CXX := g++
 CXX_FLAGS := -Wall -Wextra -g -std=c++11
-CXX_LIBS := -l boost_regex
-#CXX_LIBS := /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.53.0.so
+CXX_LIBS := /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.53.0
 
 all: id_finder
 	
@@ -14,4 +13,3 @@ id_finder: main.o
 .PHONY: clean
 clean:
 	- rm *.o id_finder
-

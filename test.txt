@@ -1,4 +1,4 @@
-Test test file to detect id information
+Test text file to detect id information
 
 Valid ID info:
 
@@ -9,6 +9,7 @@ andrew123@vt.edu, biggie@smalls.com
 11/22/63, 1/6/1919, 4/5/1994
 
 Invalid ID info:
+
 555-5-5555, 1-44-6622, 432-44--1221
 and^rew123^@vt.edu, 8@google.com
 3212-432-5553-1123

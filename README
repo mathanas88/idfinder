@@ -3,6 +3,53 @@ Identity Finder
 contributors: andrew4, mathanas
 url: https://github.com/mathanas88/idfinder
 
-Identity finder will search your local folders for text matching certain identifying information such as Social Security Numbers, phone numbers, Drivers License, etc.
+Description: Identity finder will search your local folders for text matching certain identifying information such as Social Security Numbers, phone numbers, Birthdays, etc.
 
 The user will provide information via commandline or config file. The reg ex's will be stored in a config file as well so they can be altered for changes to format in identifying information.
+
+Final version still to come. As of now the program can search a file for regex matches provided from a config file (config.txt). The user can modify the config file to seach a file for custom patterns (see below).
+
+Getting Started:
+  
+  1) Start with a git clone from our github url
+
+	$ git clone https://github.com/mathanas88/idfinder
+
+  2) Change into the idfinder directory
+
+	$ cd idfinder
+
+  3) Run 'make'
+
+
+Using the program:
+
+  To search a file for identity matches run:
+
+	$ ./id_finder <file>
+
+  A test file, test.txt, is provided to show correct operation
+
+
+Searching your own patterns:
+
+  Open up config.txt with your text editor of choice. 
+  Here you will see the provided regular expressions
+  along with corresponding keys with the format:
+
+  key:regular_expression
+
+  To add your own regular expressions, go to a new line
+  and enter your key followed by a colon followed by
+  the corresponding regular expression.
+
+  ex.
+  sleep:[Z][Z][Z]+?
+
+  Make sure to follow this exact format, and do NOT
+  leave any empty lines. Save your changes and run the
+  the program to search for your matches.
+
+  Note: There is no need to run another make after changing config.txt
+
+
